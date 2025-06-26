@@ -64,17 +64,7 @@ loading() {
 }
 
 baner() {
-echo "
-██████╗ ███████╗███████╗ █████╗  ██████╗███████╗
-██╔══██╗██╔════╝██╔════╝██╔══██╗██╔════╝██╔════╝
-██║  ██║█████╗  █████╗  ███████║██║     █████╗
-██║  ██║██╔══╝  ██╔══╝  ██╔══██║██║     ██╔══╝
-██████╔╝███████╗██║     ██║  ██║╚██████╗███████╗
-╚═════╝ ╚══════╝╚═╝     ╚═╝  ╚═╝ ╚═════╝╚══════╝ 
-      [ DEVELOPMENT GALIRUS OFFICIAL ]
-        [ TOOLSV5 THE FAST VERSION ]
-
-"
+echo "jangan hapus"
 }
 ctrl_c() {
     echo -ne "\r\r\r[ ! ] Script Berhenti !"
@@ -94,10 +84,6 @@ ctrl_c() {
         read -p "SILAHKAN ENTER"
     fi
 }
-trap 'ctrl_c SIGINT' SIGINT
-trap 'ctrl_c SIGTSTP' SIGTSTP
-trap 'ctrl_c SIGTERM' SIGTERM
-# Daftar domain saja
 domains=(
 "https://lulus.sman1pklkuras.sch.id"
 "www.kelulusan.sman1subang.sch.id"
